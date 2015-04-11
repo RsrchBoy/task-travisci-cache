@@ -5,18 +5,18 @@ requires "Text::Wrap" => "2013.0523";
 requires "perl" => "5.006";
 
 on 'test' => sub {
-  requires "File::Spec" => "3.47";
-  requires "IO::Handle" => "1.28";
-  requires "IPC::Open3" => "1.16";
+  requires "File::Spec" => "0";
+  requires "IO::Handle" => "0";
+  requires "IPC::Open3" => "0";
   requires "Test::CheckDeps" => "0.010";
   requires "Test::More" => "0.94";
   requires "perl" => "5.006";
-  requires "strict" => "1.08";
-  requires "warnings" => "1.23";
+  requires "strict" => "0";
+  requires "warnings" => "0";
 };
 
 on 'configure' => sub {
-  requires "ExtUtils::MakeMaker" => "7.04";
+  requires "ExtUtils::MakeMaker" => "0";
   requires "perl" => "5.006";
 };
 

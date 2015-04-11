@@ -28,7 +28,7 @@ the time of creation.
 
 ### [Dist::Zilla::PluginBundle::RSRCHBOY](https://metacpan.org/pod/Dist::Zilla::PluginBundle::RSRCHBOY)
 
-### [Text::Wrap](https://metacpan.org/pod/Text::Wrap)
+### [Text::Wrap](https://metacpan.org/pod/Text::Wrap) 2013.0523
 
 The installed version appears to cause some random ABEND on the Travis v5.18 image, currently.
 

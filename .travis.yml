@@ -55,10 +55,14 @@ before_install:
    - cpanm $CPANM_OPTS CPANPLUS || { cat ~/.cpanm/build.log ; false ; }
    - cpanp x
 
+   # as we're using LatestPrereqs...
+   - echo yes | cpan
+
 install:
    # not so much install our package as all its prereqs
    - dzil authordeps --missing        | cpanm $CPANM_OPTS        || { cat ~/.cpanm/build.log ; false ; }
    - dzil listdeps --author --missing | cpanm -q --skip-satisfied || { cat ~/.cpanm/build.log ; false ; }
+   - cpanm --installdeps .
 
 script:
    - export DZSIGN=archive

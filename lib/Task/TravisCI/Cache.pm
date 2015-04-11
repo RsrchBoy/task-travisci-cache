@@ -22,7 +22,7 @@ the time of creation.
 
 =pkg Dist::Zilla::PluginBundle::RSRCHBOY
 
-=pkg Text::Wrap
+=pkg Text::Wrap 2013.0523
 
 The installed version appears to cause some random ABEND on the Travis v5.18 image, currently.
 
