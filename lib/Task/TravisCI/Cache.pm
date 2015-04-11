@@ -1,9 +1,34 @@
+#
+# This file is part of Task-TravisCI-Cache
+#
+# This software is Copyright (c) 2015 by Chris Weyl.
+#
+# This is free software, licensed under:
+#
+#   The GNU Lesser General Public License, Version 2.1, February 1999
+#
 package Task::TravisCI::Cache;
+our $AUTHORITY = 'cpan:RSRCHBOY';
+# git description: afe1413
+$Task::TravisCI::Cache::VERSION = '0.001';
 
 # ABSTRACT: Packages pulled in when building a Perl cache for TravisCI
 
 !!42;
+
 __END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+Task::TravisCI::Cache - Packages pulled in when building a Perl cache for TravisCI
+
+=head1 VERSION
+
+version 0.001
 
 =head1 DESCRIPTION
 
@@ -18,16 +43,30 @@ This distribution is build using the L<LatestPrereqs plugin|Dist::Zilla::Plugin:
 so it will always depend on the latest versions of the specified modules at
 the time of creation.
 
-=pkgroup All
+=head1 TASK CONTENTS
 
-=pkg Dist::Zilla::PluginBundle::RSRCHBOY
+=head2 All
 
-=pkg Text::Wrap 2013.0523
+=head3 L<Dist::Zilla::PluginBundle::RSRCHBOY>
+
+=head3 L<Text::Wrap> 2013.0523
 
 The installed version appears to cause some random ABEND on the Travis v5.18 image, currently.
 
-=pkg Task::BeLike::RSRCHBOY
+=head3 L<Task::BeLike::RSRCHBOY>
 
-=pkg DBIx::Class::Schema::Loader
+=head3 L<DBIx::Class::Schema::Loader>
+
+=head1 AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2015 by Chris Weyl.
+
+This is free software, licensed under:
+
+  The GNU Lesser General Public License, Version 2.1, February 1999
 
 =cut
