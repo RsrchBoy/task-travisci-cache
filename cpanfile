@@ -1,4 +1,5 @@
 requires "DBIx::Class::Schema::Loader" => "0.07042";
+requires "Devel::Cover::Report::Coveralls" => "0.11";
 requires "Dist::Zilla::PluginBundle::RSRCHBOY" => "0.055";
 requires "Task::BeLike::RSRCHBOY" => "0.007";
 requires "Text::Wrap" => "2013.0523";
