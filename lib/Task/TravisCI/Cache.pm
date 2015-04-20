@@ -12,7 +12,9 @@ cache, at L<https://github.com/RsrchBoy/travis-p5-cache>.
 
 Note that while I say "my ...  cache", that certainly doesn't mean that you
 cannot use it, or that I won't accept pull-requests for the inclusion of
-additional packages (within reason, at least).
+additional packages (within reason, at least).  While I'm aiming for a more
+general use case than "just @RsrchBoy's distributions", for right now that
+provides a convenient initial target.
 
 This distribution is build using the L<LatestPrereqs plugin|Dist::Zilla::Plugin::LatestPrereqs>,
 so it will always depend on the latest versions of the specified modules at
