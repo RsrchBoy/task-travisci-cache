@@ -32,4 +32,8 @@ The installed version appears to cause some random ABEND on the Travis v5.18 ima
 
 =pkg DBIx::Class::Schema::Loader
 
+=pkg Devel::Cover::Report::Coveralls
+
+The better to see your test coverage, my dear.
+
 =cut
