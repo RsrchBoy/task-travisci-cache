@@ -1,13 +1,16 @@
 [![Build Status](https://travis-ci.org/RsrchBoy/task-travisci-cache.svg?branch=master)](https://travis-ci.org/RsrchBoy/task-travisci-cache)
 [![Kwalitee status](http://cpants.cpanauthors.org/dist/Task-TravisCI-Cache.png)](http://cpants.charsbar.org/dist/overview/Task-TravisCI-Cache)
 
+[![Build Status](https://travis-ci.org/RsrchBoy/task-travisci-cache.svg?branch=master)](https://travis-ci.org/RsrchBoy/task-travisci-cache)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/Task-TravisCI-Cache.png)](http://cpants.charsbar.org/dist/overview/Task-TravisCI-Cache)
+
 # NAME
 
 Task::TravisCI::Cache - Packages pulled in when building a Perl cache for TravisCI
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # DESCRIPTION
 
@@ -16,7 +19,9 @@ cache, at [https://github.com/RsrchBoy/travis-p5-cache](https://github.com/Rsrch
 
 Note that while I say "my ...  cache", that certainly doesn't mean that you
 cannot use it, or that I won't accept pull-requests for the inclusion of
-additional packages (within reason, at least).
+additional packages (within reason, at least).  While I'm aiming for a more
+general use case than "just @RsrchBoy's distributions", for right now that
+provides a convenient initial target.
 
 This distribution is build using the [LatestPrereqs plugin](https://metacpan.org/pod/Dist::Zilla::Plugin::LatestPrereqs),
 so it will always depend on the latest versions of the specified modules at
@@ -35,6 +40,10 @@ The installed version appears to cause some random ABEND on the Travis v5.18 ima
 ### [Task::BeLike::RSRCHBOY](https://metacpan.org/pod/Task::BeLike::RSRCHBOY)
 
 ### [DBIx::Class::Schema::Loader](https://metacpan.org/pod/DBIx::Class::Schema::Loader)
+
+### [Devel::Cover::Report::Coveralls](https://metacpan.org/pod/Devel::Cover::Report::Coveralls)
+
+The better to see your test coverage, my dear.
 
 # AUTHOR
 

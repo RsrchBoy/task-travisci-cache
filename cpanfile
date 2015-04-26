@@ -1,6 +1,6 @@
 requires "DBIx::Class::Schema::Loader" => "0.07042";
 requires "Devel::Cover::Report::Coveralls" => "0.11";
-requires "Dist::Zilla::PluginBundle::RSRCHBOY" => "0.055";
+requires "Dist::Zilla::PluginBundle::RSRCHBOY" => "0.058";
 requires "Task::BeLike::RSRCHBOY" => "0.007";
 requires "Text::Wrap" => "2013.0523";
 requires "perl" => "5.006";
@@ -22,6 +22,7 @@ on 'configure' => sub {
 };
 
 on 'develop' => sub {
+  requires "Dist::Zilla::PluginBundle::RSRCHBOY" => "0.058";
   requires "Pod::Coverage::TrustPod" => "0.100003";
   requires "Test::EOL" => "1.5";
   requires "Test::More" => "0.88";
