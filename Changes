@@ -1,7 +1,5 @@
 Revision history for Task-TravisCI-Cache
 
-{{$NEXT}}
-
 0.002     2015-04-27 19:01:07 PDT-0700
 	* + Devel::Cover::Report::Coveralls
 
